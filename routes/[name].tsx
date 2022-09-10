@@ -1,5 +1,6 @@
-import { PageProps } from "$fresh/server.ts";
+import { PageProps } from '$fresh/server.ts'
+import { Container } from '../components/Container.tsx'
 
 export default function Greet(props: PageProps) {
-  return <div>Hello {props.params.name}</div>;
+  return <Container>Hello {props.params.name}</Container>
 }
