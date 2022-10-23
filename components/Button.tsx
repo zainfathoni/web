@@ -16,7 +16,7 @@ const variantStyles = {
 
 export function Button({ variant = 'primary', className, ...props }: ButtonProps) {
   className = classNames(
-    'inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none',
+    'border(gray-100 2) hover:bg-gray-200 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none',
     variantStyles[variant],
     className ?? ''
   )
