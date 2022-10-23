@@ -3,7 +3,7 @@ import { IS_BROWSER } from '$fresh/runtime.ts'
 import { classNames } from '../utils/class-names.tsx'
 
 export type ButtonProps = JSX.HTMLAttributes<HTMLButtonElement> & {
-  variant: 'primary' | 'secondary'
+  variant?: 'primary' | 'secondary'
   className?: string
 }
 
