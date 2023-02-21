@@ -9,7 +9,7 @@ type ContainerProps = {
 function OuterContainer({ className = '', children, ...props }: ContainerProps) {
   return (
     <div class={classNames('sm:px-8', className)} {...props}>
-      <div class="mx-auto max-w-7xl lg:px-8">{children}</div>
+      <div class='mx-auto max-w-7xl lg:px-8'>{children}</div>
     </div>
   )
 }
@@ -17,7 +17,7 @@ function OuterContainer({ className = '', children, ...props }: ContainerProps) 
 function InnerContainer({ className = '', children, ...props }: ContainerProps) {
   return (
     <div class={classNames('relative px-4 sm:px-8 lg:px-12', className)} {...props}>
-      <div class="mx-auto max-w-2xl lg:max-w-5xl">{children}</div>
+      <div class='mx-auto max-w-2xl lg:max-w-5xl'>{children}</div>
     </div>
   )
 }

@@ -1,4 +1,11 @@
 {
+  "fmt": {
+    "options": {
+      "semiColons": false,
+      "singleQuote": true,
+      "lineWidth": 120
+    }
+  },
   "tasks": {
     "start": "deno run -A --watch=static/,routes/ dev.ts"
   },
